@@ -1,6 +1,3 @@
-# Drop-down form for Bangladesh-All-Divisions-Districts-Upazila-Thana-Constituency-Administration-s
-Bangladesh's all division,districts,upazila,thana,constituency,administration list in form of Dropdown Select Option - which can be used in any kinds of form to take input from users.
-
 # Introduction
 
 Users will be able to input their location details gradually starting from
@@ -10,8 +7,22 @@ Users will be able to input their location details gradually starting from
 A simple html form with Select tag is associated in this method. The next Select field label will be depend on the current value of the Select label.
 Logic has been implemented using JavaScript.
 
-
-# Demo HTML Form
+# Demo
+**Form**
+![Form](https://i.ibb.co/QM1x0N9/1.png)
+**Division Select**
+![Division](https://i.ibb.co/wsRPChR/2.png)
+**District Select**
+![District](https://i.ibb.co/ccSZJjh/3.png)
+**Constituency Select**
+![enter image description here](https://i.ibb.co/1JQdn35/4.png)
+**Administration Select**
+![enter image description here](https://i.ibb.co/9sKVR59/5.png)
+**Upazila Select**
+![enter image description here](https://i.ibb.co/cXZX3tj/6.png)
+**Thana Select**
+![enter image description here](https://i.ibb.co/gtQ2fVg/7.png)
+# HTML
 
     <label  for="division"  class="block text-gray-600 font-semibold mb-2">বিভাগ</label>
 
@@ -71,7 +82,7 @@ Logic has been implemented using JavaScript.
     
     }
 
-## Usage
+## Instruction
 
 Attach the JS script to HTML form to use the functions.
 
