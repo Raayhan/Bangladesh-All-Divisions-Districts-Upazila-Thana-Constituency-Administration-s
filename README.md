@@ -100,5 +100,7 @@ Logic has been implemented using JavaScript.
 ## Usage
 
 Attach the JS script to HTML form to use the functions.
- <script src="location.js"></script>
+```
+<script  src="js/location.js"></script>
+```
 
