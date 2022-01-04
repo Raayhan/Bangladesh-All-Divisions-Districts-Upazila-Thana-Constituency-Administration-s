@@ -8,19 +8,34 @@ A simple html form with Select tag is associated in this method. The next Select
 Logic has been implemented using JavaScript.
 
 # Demo
-**Form**
+
+<p align="center"><b>Sample Form</b></p>
+
+
 ![Form](https://i.ibb.co/QM1x0N9/1.png)
-**Division Select**
+
+<p align="center"><b>Division Select</b></p>
+
 ![Division](https://i.ibb.co/wsRPChR/2.png)
-**District Select**
+
+<p align="center"><b>District Select</b></p>
+
 ![District](https://i.ibb.co/ccSZJjh/3.png)
-**Constituency Select**
+
+<p align="center"><b>Constituency Select</b></p>
+
 ![enter image description here](https://i.ibb.co/1JQdn35/4.png)
-**Administration Select**
+
+<p align="center"><b>Administration Select</b></p>
+
 ![enter image description here](https://i.ibb.co/9sKVR59/5.png)
-**Upazila Select**
+
+<p align="center"><b>Upazila Select</b></p>
+
 ![enter image description here](https://i.ibb.co/cXZX3tj/6.png)
-**Thana Select**
+
+<p align="center"><b>Thana Select</b></p>
+
 ![enter image description here](https://i.ibb.co/gtQ2fVg/7.png)
 # HTML
 
@@ -82,7 +97,7 @@ Logic has been implemented using JavaScript.
     
     }
 
-## Instruction
+## Usage
 
 Attach the JS script to HTML form to use the functions.
 
