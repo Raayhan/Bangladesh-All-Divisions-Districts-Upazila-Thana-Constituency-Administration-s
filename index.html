@@ -1,0 +1,85 @@
+               <h4 class="italic mb-4 text-lg border-b text-red-600 mt-10">
+                    বিস্তারিত ঠিকানা
+                </h4>
+                <div class="grid lg:grid-cols-3 sm:grid-cols-1 lg:gap-4">
+                    <div class="mb-4">
+                        <label for="division" class="block text-gray-600 font-semibold mb-2">বিভাগ</label>
+                        <select name="division" id="division" onchange="divisionsList();"
+                            class="bg-gray-100 border-2 w-full p-2 rounded-lg  @error('division') border-red-500 @enderror">
+                            <option value="" disabled selected>Select Division</option>
+                            <option value="Barishal">বরিশাল (Barishal)</option>
+                            <option value="Chattogram">চট্টগ্রাম (Chattogram)</option>
+                            <option value="Dhaka">ঢাকা (Dhaka)</option>
+                            <option value="Khulna">খুলনা (Khulna)</option>
+                            <option value="Mymensingh">ময়মনসিংহ (Mymensingh)</option>
+                            <option value="Rajshahi">রাজশাহী (Rajshahi)</option>
+                            <option value="Rangpur">রংপুর (Rangpur)</option>
+                            <option value="Sylhet">সিলেট (Sylhet)</option>
+
+                        </select>
+                        @error('division')
+                            <div class="text-red-500 mt-2 font-medium text-sm">
+                                {{ $message }}
+                            </div>
+                        @enderror
+                    </div>
+                    <div class="mb-4">
+                        <label for="district" class="block text-gray-600 font-semibold mb-2">জেলা</label>
+                        <select name="district" id="district" onchange="constituencyList();"
+                            class="bg-gray-100 border-2 w-full p-2 rounded-lg  @error('district') border-red-500 @enderror">
+                        </select>
+                        @error('district')
+                            <div class="text-red-500 mt-2 font-medium text-sm">
+                                {{ $message }}
+                            </div>
+                        @enderror
+                    </div>
+                    <div class="mb-4">
+                        <label for="constituency" class="block text-gray-600 font-semibold mb-2">নির্বাচনী
+                            এলাকা</label>
+                        <select name="constituency" id="constituency" onchange="adminList();"
+                            class="bg-gray-100 border-2 w-full p-2 rounded-lg @error('constituency') border-red-500 @enderror">
+                        </select>
+                        @error('constituency')
+                            <div class="text-red-500 mt-2 font-medium text-sm">
+                                {{ $message }}
+                            </div>
+                        @enderror
+                    </div>
+                </div>
+                <div class="grid lg:grid-cols-3 sm:grid-cols-1 lg:gap-4">
+                    <div class="mb-4">
+                        <label for="administration" class="block text-gray-600 font-semibold mb-2">প্রশাসন</label>
+                        <select name="administration" id="administration" onchange="upazilaList();"
+                            class="bg-gray-100 border-2 w-full p-2 rounded-lg  @error('administration') border-red-500 @enderror">
+                        </select>
+                        @error('administration')
+                            <div class="text-red-500 mt-2 font-medium text-sm">
+                                {{ $message }}
+                            </div>
+                        @enderror
+                    </div>
+                    <div class="mb-4">
+                        <label for="upazila" class="block text-gray-600 font-semibold mb-2">উপজেলা</label>
+                        <select name="upazila" id="upazila" onchange="thanaList();"
+                            class="bg-gray-100 border-2 w-full p-2 rounded-lg  @error('upazila') border-red-500 @enderror">
+                        </select>
+                        @error('upazila')
+                            <div class="text-red-500 mt-2 font-medium text-sm">
+                                {{ $message }}
+                            </div>
+                        @enderror
+                    </div>
+                    <div class="mb-4">
+                        <label for="thana" class="block text-gray-600 font-semibold mb-2">থানা</label>
+                        <select name="thana" id="thana"
+                            class="bg-gray-100 border-2 w-full p-2 rounded-lg  @error('thana') border-red-500 @enderror">
+                        </select>
+                        @error('thana')
+                            <div class="text-red-500 mt-2 font-medium text-sm">
+                                {{ $message }}
+                            </div>
+                        @enderror
+                    </div>
+
+                </div>
